@@ -73,7 +73,7 @@ module.exports = {
 };
 ```
 
-## run
+## 4. run
 
 ローカルでの動作確認をしてみます。  
 2で設定したscriptを叩いてみます。
@@ -86,7 +86,7 @@ npm run docs:dev
 ちなみに、ホットリロードに対応しているため変更内容が都度ページに反映されます。  
 この記事を書いてるときも、隣のブラウザにどんどん反映されてってます！
 
-## build
+## 5. build
 
 ビルドしてみます。
 
@@ -97,15 +97,15 @@ npm run docs:build
 .vuepressフォルダの中にdistが出力されます。
 
 
-## deploy
+## 6. deploy
 
 distの内容をgithubのリポジトリにPushします。  
 その際、Pagesの設定を変えておきます。  
 [https://{ユーザ名}.github.io/{リポジトリ名}/](https://daikinakamura.github.io/mucholog/)にアクセスします。  
-  
+
 見れましたか！？（反映には少し時間がかかります。）
 
-## memo...
+## 7. memo...
 
 * sidebarを作るのが面倒（自動化したい）
 * blogサポートを待ったほうが良かったかも感
